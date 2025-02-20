@@ -71,6 +71,12 @@ I have been working on developing my own VR locomotion method and haptic feedbac
 
 # AWARDS & HONORS
 
+
+#### Seed for Science, De Luca Foundation
+
+- <i><u>Feb 2025</u></i><br />
+- Seed for Science Fellowship from the De Luca Foundation
+
 #### Gell Mason Endowed Fellowship, University of Washington
 
 - <i><u>Sep 2024</u></i><br />

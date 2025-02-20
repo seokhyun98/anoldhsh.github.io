@@ -15,9 +15,9 @@ image: Publications_0731.jpg
   <div class="research-section">
     <b>Blurring the Boundary Between Reality and Virtuality: Research on Novel Haptic Devices</b>
     <ul>
-      <li>Creation and evaluation of a small, lightweight haptic system that uses electrical muscle stimulation (EMS) combined with biomechanical simulation to stimulate multiple muscles simultaneously, providing users with precise directional haptic force feedback [c.5, w.4]</li>
+      <li>Creation and evaluation of a small, lightweight haptic system that uses electrical muscle stimulation (EMS) combined with biomechanical simulation to stimulate multiple muscles simultaneously, providing users with precise directional haptic force feedback [c.11. c.5, w.4]</li>
       <li>Improvement of the response time limitations of previous thermal haptic devices by using motorized Peltier modules, creating a device capable of providing a high level of realism in situations requiring rapid sensory transitions [c.8, w.1]</li>
-      <li>Development of exemplary VR applications utilizing haptic devices in industrial settings [c.8, w.4] and VR game content [c.5, c.8, w.1]</li>
+      <li>Development of exemplary VR applications utilizing haptic devices in industrial settings [c.11, c.8, w.4] and VR game content [c.5, c.8, w.1]</li>
     </ul>
   </div>
 
@@ -34,7 +34,7 @@ image: Publications_0731.jpg
     <b>Utilizing Haptic Technology for Accessibility</b>
     <ul>
       <li>Development and implementation of a hat-shaped haptic device that induces the “Hanger reflex” to expand the field of vision for people with low vision [c.6]</li>
-      <li>Development of an intelligent walker that integrates pressure sensors, linear actuators, and motorized wheels, dynamically changing its form to match the patient's intent and the surrounding environment, aimed at improving rehabilitation performance for patients with lower body motor impairments [w.2]</li>
+      <li>Development of an intelligent walker that integrates pressure sensors, linear actuators, and motorized wheels, dynamically changing its form to match the patient's intent and the surrounding environment, aimed at improving rehabilitation performance for patients with lower body motor impairments [c.9, w.2]</li>
     </ul>
   </div>
 
@@ -42,7 +42,7 @@ image: Publications_0731.jpg
     <b>Interactions Between Autonomous Vehicles (AVs) and People</b>
     <ul>
       <li>Development and evaluation of a haptic system that activates muscles via EMS based on the content and movement of the vehicle to address motion sickness, a major limitation of VR use in AVs [c.4, w.3]</li>
-      <li>Development and evaluation of an in-car VR locomotion system that allows users to freely explore the environment, rather than simply observing content on predetermined routes [p.3, cc.1, cc.2]</li>
+      <li>Development and evaluation of an in-car VR locomotion system that allows users to freely explore the environment, rather than simply observing content on predetermined routes [c.10, p.3, cc.1, cc.2]</li>
       <li>Creation and distribution of a comprehensive dataset of AV passengers’ real-time needs and biometric signals [c.7]</li>
       <li>Development and design evaluation of an AR-based virtual agent for communication between AVs and pedestrians [c.2]</li>
     </ul>
@@ -295,6 +295,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
+<div class="publication-container" data-tags="Haptics Conference FA">
+  <div class="publication-image">
+    <img src="/images/TelePulse.gif" alt="Research Image">
+  </div>
+  <div class="publication-text">
+    <font size="4"><b>[c.11] TelePulse: Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font><br>
+    <font size="3" style="color:dark_gray;"><strong>Hwang, S.*</strong>, Kang, S.*, Oh, J.*, Park, J., Shin, S., Luo, Y., DelPreto, J., Lee, S., Lee, K., Matusik, W., Rus, D., Kim, S.</font><br>
+    <font size="3" style="color:gray;"><u><i>Proceedings of the 2025 CHI</i></u> - (Accepted)</font>
+  </div>
+</div>
+
+<div class="publication-container" data-tags="Locomotion AutomotiveUX Conference">
+  <div class="publication-image">
+    <img src="/images/IWBF.gif" alt="Research Image">
+  </div>
+  <div class="publication-text">
+    <font size="4"><b>[c.10] I Want to Break Free: Enabling User-Applied Active Locomotion in In-Car VR through Contextual Cues</b></font><br>
+    <font size="3" style="color:dark_gray;">Gim, B., <strong>Hwang, S.</strong>, Kang, S., Kim, G., Yeo, D., Kim, S.</font><br>
+    <font size="3" style="color:gray;"><u><i>Proceedings of the 2025 CHI</i></u> - (Accepted)</font>
+  </div>
+</div>
+
+<div class="publication-container" data-tags="Haptics Locomotion Accessibility Conference">
+  <div class="publication-image">
+    <img src="/images/AdaptWalker.jpg" alt="Research Image">
+  </div>
+  <div class="publication-text">
+    <font size="4"><b>[c.9] Adaptive Walker: User Intention and Environmentally Aware Intelligent Walker with High-resolution Tactile and IMU Sensor</b></font><br>
+    <font size="3" style="color:dark_gray;">Choi, Y., <strong>Hwang, S.</strong>, Moon, J., Lee, H., Yeo, D., Seong, M., Luo, Y., Kim, S., Matusik, W., Rus, D., Kim, K</font><br>
+    <font size="3" style="color:gray;"><u><i>ICRA 2025: International Conference on Robotics and Automation</i></u> - (Accepted)</font>
+  </div>
+</div>
+
 <div class="publication-container" data-tags="Haptics Conference">
   <div class="publication-image">
     <img src="/images/FlipPelt_UIST.gif" alt="Research Image">
@@ -307,16 +340,16 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="publication-container" data-tags="Haptics Poster&Workshop FA">
-    <div class="publication-image">
-      <img src="/images/ProposeTelePulse.png" alt="Research Image">
-    </div>
-    <div class="publication-text">
-      <font size="4"><b>[w.4] Proposal of a Framework for Enhancing Teleoperation Experience with Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font>
-      <br>
-      <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Kang, S., Oh, J., Park, J., Shin, S., Yiyue Luo, Joseph DelPreto, Wojciech Matusik, Daniela Rus, and Kim, S.</font><br>
-      <font size="3" style="color:gray;"><u><i>UbiComp/ISWC '24 Adjunct</i></u> - <a href="https://doi.org/10.1145/3675094.3678380"><strong>Link</strong></a></font>
-    </div>
+  <div class="publication-image">
+    <img src="/images/ProposeTelePulse.png" alt="Research Image">
   </div>
+  <div class="publication-text">
+    <font size="4"><b>[w.4] Proposal of a Framework for Enhancing Teleoperation Experience with Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font>
+    <br>
+    <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Kang, S., Oh, J., Park, J., Shin, S., Luo, Y., DelPreto, J., Matusik, W., Rus, D., and Kim, S.</font><br>
+    <font size="3" style="color:gray;"><u><i>UbiComp/ISWC '24 Adjunct</i></u> - <a href="https://doi.org/10.1145/3675094.3678380"><strong>Link</strong></a></font>
+  </div>
+</div>
 
 <div class="publication-container" data-tags="Haptics AutomotiveUX Poster&Workshop">
   <div class="publication-image">
@@ -325,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="publication-text">
     <font size="4"><b>[w.3] Adaptive In-Vehicle Virtual Reality for Reducing Motion Sickness: Manipulating Passenger Posture During Driving Events</b></font>
     <br>
-    <font size="3" style="color:dark_gray;">Elsharkawy, A., Ataya, A., Yeo, D., Seong, M., <strong>Hwang, S.</strong>, Joseph DelPreto, Wojciech Matusik, Daniela Rus, and Kim, S.</font><br>
+    <font size="3" style="color:dark_gray;">Elsharkawy, A., Ataya, A., Yeo, D., Seong, M., <strong>Hwang, S.</strong>, DelPreto, J., Matusik, W., Rus, D., and Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>UbiComp/ISWC '24 Adjunct</i></u> - <a href="https://doi.org/10.1145/3675094.3678381"><strong>Link</strong></a></font>
   </div>
 </div>
@@ -337,7 +370,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="publication-text">
     <font size="4"><b>[c.7] TimelyTale: A Multimodal Dataset Assessing Passenger's Demands for Explanations in Highly Automated Vehicles </b></font>
     <br>
-    <font size="3" style="color:dark_gray;">Kim, G., <strong>Hwang, S.</strong>, Seong, M., Yeo, D., Daniela Rus, and Kim, S.</font><br>
+    <font size="3" style="color:dark_gray;">Kim, G., <strong>Hwang, S.</strong>, Seong, M., Yeo, D., Rus, D., and Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>Proceedings of the ACM on IMWUT</i></u> - <a href="https://dl.acm.org/doi/10.1145/3678544"><strong>Link</strong></a></font>
   </div>
 </div>
@@ -350,7 +383,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <font size="4"><b>[w.2] Intelligence Walker: A Seamless Mobility Assist Device for the Elderly</b></font>
     <br>
     <font size="3" style="color:dark_gray;">Choi, Y., Yeo, D., <strong>Hwang, S.</strong>, Seong, M.,
-      Moon, J., Yiyue Luo, Wojciech Matusik, Daniela Rus, and Kim, K.</font><br>
+      Moon, J., Luo, Y., Matusik, W., Rus, D., and Kim, K.</font><br>
     <font size="3" style="color:gray;"><u><i>2024 IEEE ICRA Workshop on Wearable</i></u> - <a href="https://sites.google.com/view/icra-2024-wearable-workshop/proceedings"><strong>Link</strong></a></font>
   </div>
 </div>

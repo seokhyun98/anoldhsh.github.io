@@ -10,6 +10,9 @@ image: Experiences.jpeg
 #### ACE Lab, University of Washington
 * <i><u>Ph.D. (Advisor: <a href="https://faculty.washington.edu/wobbrock/"><strong>Jacob O. Wobbrock</strong></a>) (Sep 2024 – Present)</u></i><br />
 
+#### DRL Lab & CDFG Lab, Massachusetts Institute of Technology
+* <i><u>Visiting Researcher (Advisor: <a href="https://danielarus.csail.mit.edu/"><strong>Daniela Rus</strong></a> & <a href="https://cdfg.mit.edu/wojciech"><strong>Wojciech Matusik</strong></a>) (Sep 2023 – Oct 2023)</u></i><br />
+
 #### Human-Centered Intelligence Systems Lab, Korea (GIST)
 * <i><u>Research Associates (September 2023 – August 2024)</u></i><br />
 * <i><u>M.S. (Advisor: <a href="https://scholar.google.co.kr/citations?user=AjfRd6wAAAAJ&hl"><strong>SeungJun Kim</strong></a>) (Sep 2021 – Aug 2023)</u></i><br />
