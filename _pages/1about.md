@@ -72,6 +72,11 @@ I have been working on developing my own VR locomotion method and haptic feedbac
 # AWARDS & HONORS
 
 
+#### Best Paper, 2025 CHI conference on Human Factors in Computing Systems
+
+- <i><u>May 2025</u></i><br />
+- Best paper for being in the top 1% of conference papers
+
 #### Seed for Science, De Luca Foundation
 
 - <i><u>Feb 2025</u></i><br />

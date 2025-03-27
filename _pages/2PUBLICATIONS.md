@@ -295,12 +295,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </div>
 
-<div class="publication-container" data-tags="Haptics Conference FA">
+<div class="publication-container" data-tags="Haptics Conference FA Award">
   <div class="publication-image">
     <img src="/images/TelePulse.gif" alt="Research Image">
   </div>
   <div class="publication-text">
     <font size="4"><b>[c.11] TelePulse: Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font><br>
+    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Best Paper</strong></font><br>
     <font size="3" style="color:dark_gray;"><strong>Hwang, S.*</strong>, Kang, S.*, Oh, J.*, Park, J., Shin, S., Luo, Y., DelPreto, J., Lee, S., Lee, K., Matusik, W., Rus, D., Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>Proceedings of the 2025 CHI</i></u> - (Accepted)</font>
   </div>
