@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
   <div class="publication-text">
     <font size="4"><b>[c.5] ErgoPulse: Electrifying Your Lower Body With Biomechanical Simulation-based Electrical Muscle Stimulation Haptic System in Virtual Reality</b></font><br>
-    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable mention</strong></font><br>
+    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable Mention</strong></font><br>
     <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Oh, J., Kang, S., Seong, M., Elsharkawy, A., and Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>Proceedings of the 2024 CHI</i></u> - <a href="https://dl.acm.org/doi/10.1145/3613904.3642008"><strong>Link</strong></a></font>
   </div>
@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
   <div class="publication-text">
     <font size="4"><b>[c.4] SYNC-VR: Synchronizing Your Senses to Conquer Motion Sickness for Enriching In-Vehicle Virtual Reality</b></font><br>
-    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable mention</strong></font><br>
+    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable Mention</strong></font><br>
     <font size="3" style="color:dark_gray;">Elsharkawy, A., Ataya, A., Yeo, D., An, E., <strong>Hwang, S.</strong>, and Kim, S.</font><br>
 		<font size="3" style="color:gray;"><u><i>Proceedings of the 2024 CHI</i></u> - <a href="https://dl.acm.org/doi/10.1145/3613904.3642941"><strong>Link</strong></a></font>
   </div>
@@ -486,7 +486,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
   <div class="publication-text">
     <font size="4"><b>[c.3] Enhancing Seamless Walking in Virtual Reality: Application of Bone-Conduction Vibration in Redirected Walking</b></font><br>
-    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable mention</strong></font><br>
+    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable Mention</strong></font><br>
     <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Kim, Y., Seo, Y., and Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</i></u> - <a href="https://www.computer.org/csdl/proceedings-article/ismar/2023/283800b181/1SBIOSZTWlG"><strong>Link</strong></a></font>
   </div>
@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
   <div class="publication-text">
     <font size="4"><b>[c.2] Designing Virtual Agent Human–Machine Interfaces Depending on the Communication and Anthropomorphism Levels in Augmented Reality</b></font><br>
-    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable mention</strong></font><br>
+    <font size="3"><strong style="background-color: #ffdd57; padding: 2px 4px; border-radius: 5px;">🏆 Honorable Mention</strong></font><br>
     <font size="3" style="color:dark_gray;">Kang, Y., Choi, S., An, E., <strong>Hwang, S.</strong>, and Kim, S.</font><br>
     <font size="3" style="color:gray;"><u><i>AutomotiveUI 2023</i></u> - <a href="https://dl.acm.org/doi/10.1145/3580585.3606460"><strong>Link</strong></a></font>
   </div>
