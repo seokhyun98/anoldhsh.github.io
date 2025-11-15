@@ -127,7 +127,7 @@ layout: default
 		line-height: 1.5;
 	}
 
-	.publication-image img {
+	.publication-image img, .publication-image video {
 		width: 100%;
 		max-width: 800px;
 		/* Optional: Adjust based on your design */
@@ -179,7 +179,7 @@ layout: default
 			width: 100%;
 		}
 
-		.publication-image img {
+		.publication-image img, .publication-image video {
 			height: auto;
 			aspect-ratio: 16 / 9;
 		}
@@ -242,8 +242,12 @@ layout: default
 								Enjoyment to Practical Applications.</li>
 						</ol>
 						<br>
-						<img src="images/Overview.png" alt="Research Overview"
-							style="max-width: 100%; height: auto; border-radius: 5px;">
+						<picture>
+							<source type="image/avif" srcset="/images/Overview.avif">
+							<source type="image/webp" srcset="/images/Overview.webp">
+							<img src="images/Overview.png" alt="Research overview diagram" loading="lazy" decoding="async"
+								style="max-width: 100%; height: auto; border-radius: 5px;">
+						</picture>
 						<br>
 				</div>
 				<br>
@@ -272,7 +276,11 @@ layout: default
 
 			<div class="publication-container" data-tags="AutomotiveUX Conference FA">
 				<div class="publication-image">
-				  <img src="/images/TouchInMotion.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/TouchInMotion.avif">
+					  <source type="image/webp" srcset="/images/TouchInMotion.webp">
+					  <img src="/images/TouchInMotion.png" alt="Touchscreens in Motion study illustration" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.13] Touchscreens in Motion: Quantifying the Impact of Cognitive Load on Distracted Drivers.</b></font><br>
@@ -283,7 +291,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="AutomotiveUX Conference">
 				<div class="publication-image">
-				  <img src="/images/AVHMI.gif" alt="Research Image">
+				  <video aria-label="Contextual external HMI for multi-road user conflicts (animation)" autoplay muted loop playsinline preload="none" poster="/images/AVHMI.gif">
+            <source src="/images/AVHMI.webm" type="video/webm">
+            <source src="/images/AVHMI.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/AVHMI.gif" alt="Contextual external HMI for multi-road user conflicts (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.12] You're the One Whom I'm Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios</b></font><br>
@@ -294,7 +306,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Journal">
 				<div class="publication-image">
-				  <img src="/images/RED.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/RED.avif">
+					  <source type="image/webp" srcset="/images/RED.webp">
+					  <img src="/images/RED.png" alt="ReD shoes actuated footwear for redirected walking" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[j.3] ReD shoes: actuated footwear for multisensory redirected walking in virtual reality</b></font><br>
@@ -305,7 +321,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Conference FA Award">
 				<div class="publication-image">
-				  <img src="/images/TelePulse.gif" alt="Research Image">
+				  <video aria-label="TelePulse EMS-based haptic teleoperation (animation)" autoplay muted loop playsinline preload="none" poster="/images/TelePulse.gif">
+            <source src="/images/TelePulse.webm" type="video/webm">
+            <source src="/images/TelePulse.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/TelePulse.gif" alt="TelePulse EMS-based haptic teleoperation (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.11] TelePulse: Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font><br>
@@ -317,7 +337,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Locomotion AutomotiveUX Conference">
 				<div class="publication-image">
-				  <img src="/images/IWBF.gif" alt="Research Image">
+				  <video aria-label="In-car VR active locomotion with contextual cues (animation)" autoplay muted loop playsinline preload="none" poster="/images/IWBF.gif">
+            <source src="/images/IWBF.webm" type="video/webm">
+            <source src="/images/IWBF.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/IWBF.gif" alt="In-car VR active locomotion with contextual cues (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.10] I Want to Break Free: Enabling User-Applied Active Locomotion in In-Car VR through Contextual Cues</b></font><br>
@@ -328,7 +352,7 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Accessibility Conference">
 				<div class="publication-image">
-				  <img src="/images/AdaptWalker.jpg" alt="Research Image">
+				  <img src="/images/AdaptWalker.jpg" alt="Adaptive intelligent walker with tactile and IMU sensors" loading="lazy" decoding="async">
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.9] Adaptive Walker: User Intention and Environmentally Aware Intelligent Walker with High-resolution Tactile and IMU Sensor</b></font><br>
@@ -339,7 +363,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Conference">
 				<div class="publication-image">
-				  <img src="/images/FlipPelt_UIST.gif" alt="Research Image">
+				  <video aria-label="Flip-Pelt motor-driven Peltier thermal haptics (animation)" autoplay muted loop playsinline preload="none" poster="/images/FlipPelt_UIST.gif">
+            <source src="/images/FlipPelt_UIST.webm" type="video/webm">
+            <source src="/images/FlipPelt_UIST.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/FlipPelt_UIST.gif" alt="Flip-Pelt motor-driven Peltier thermal haptics (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.8] Flip-Pelt: Motor-Driven Peltier Elements for Rapid Thermal Stimulation and Congruent Pressure Feedback in Virtual Reality</b></font><br>
@@ -350,7 +378,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Poster&Workshop FA">
 				<div class="publication-image">
-				  <img src="/images/ProposeTelePulse.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/ProposeTelePulse.avif">
+					  <source type="image/webp" srcset="/images/ProoseTelePulse.webp">
+					  <img src="/images/ProposeTelePulse.png" alt="TelePulse framework diagram" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[w.4] Proposal of a Framework for Enhancing Teleoperation Experience with Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality</b></font>
@@ -362,7 +394,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics AutomotiveUX Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/In-Vehicle_MS.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/In-Vehicle_MS.avif">
+					  <source type="image/webp" srcset="/images/In-Vehicle_MS.webp">
+					  <img src="/images/In-Vehicle_MS.png" alt="Adaptive in-vehicle VR to reduce motion sickness" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[w.3] Adaptive In-Vehicle Virtual Reality for Reducing Motion Sickness: Manipulating Passenger Posture During Driving Events</b></font>
@@ -374,7 +410,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="AutomotiveUX Conference">
 				<div class="publication-image">
-				  <img src="/images/TimelyTale.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/TimelyTale.avif">
+					  <source type="image/webp" srcset="/images/TimelyTale.webp">
+					  <img src="/images/TimelyTale.png" alt="TimelyTale dataset for explanations in automated vehicles" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.7] TimelyTale: A Multimodal Dataset Assessing Passenger's Demands for Explanations in Highly Automated Vehicles </b></font>
@@ -386,7 +426,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Accessibility Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/HapticWalker.jpeg" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/HapticWalker.avif">
+					  <source type="image/webp" srcset="/images/HapticWalker.webp">
+					  <img src="/images/HapticWalker.jpeg" alt="Intelligence Walker mobility assist device" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[w.2] Intelligence Walker: A Seamless Mobility Assist Device for the Elderly</b></font>
@@ -399,7 +443,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/FlipPelt.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/FlipPelt.avif">
+					  <source type="image/webp" srcset="/images/FlipPelt.webp">
+					  <img src="/images/FlipPelt.png" alt="Dual-sided Peltier thermal feedback wearable" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[w.1] Dual-sided Peltier Elements for Rapid Thermal Feedback in Wearables</b></font><br>
@@ -410,7 +458,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Accessibility Conference">
 				<div class="publication-image">
-				  <img src="/images/WatchCap.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/WatchCap.avif">
+					  <source type="image/webp" srcset="/images/WatchCap.webp">
+					  <img src="/images/WatchCap.png" alt="WatchCap haptic stimulation for low vision" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.6] WatchCap: Improving Scanning Efficiency in People with Low Vision through Compensatory Head Movement Stimulation</b></font><br>
@@ -421,7 +473,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Conference FA Award">
 				<div class="publication-image">
-				  <img src="/images/ErgoPulse.gif" alt="Research Image">
+				  <video aria-label="ErgoPulse EMS haptic system (animation)" autoplay muted loop playsinline preload="none" poster="/images/ErgoPulse.gif">
+            <source src="/images/ErgoPulse.webm" type="video/webm">
+            <source src="/images/ErgoPulse.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/ErgoPulse.gif" alt="ErgoPulse EMS haptic system (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.5] ErgoPulse: Electrifying Your Lower Body With Biomechanical Simulation-based Electrical Muscle Stimulation Haptic System in Virtual Reality</b></font><br>
@@ -433,7 +489,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics AutomotiveUX Conference Award">
 				<div class="publication-image">
-				  <img src="/images/SyncVR.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/SyncVR.avif">
+					  <source type="image/webp" srcset="/images/SyncVR.webp">
+					  <img src="/images/SyncVR.png" alt="SYNC-VR motion sickness mitigation in in-vehicle VR" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.4] SYNC-VR: Synchronizing Your Senses to Conquer Motion Sickness for Enriching In-Vehicle Virtual Reality</b></font><br>
@@ -445,7 +505,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Locomotion Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/GaitWay.gif" alt="Research Image">
+				  <video aria-label="GaitWay VR locomotion prediction (animation)" autoplay muted loop playsinline preload="none" poster="/images/GaitWay.gif">
+            <source src="/images/GaitWay.webm" type="video/webm">
+            <source src="/images/GaitWay.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/GaitWay.gif" alt="GaitWay VR locomotion prediction (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[p.4] GaitWay: Gait Data-Based VR Locomotion Prediction System Robust to Visual Distraction</b></font><br>
@@ -456,7 +520,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Locomotion AutomotiveUX Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/CurvingCar.gif" alt="Research Image">
+				  <video aria-label="Redirected steering gains for in-car VR (animation)" autoplay muted loop playsinline preload="none" poster="/images/CurvingCar.gif">
+            <source src="/images/CurvingCar.webm" type="video/webm">
+            <source src="/images/CurvingCar.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/CurvingCar.gif" alt="Redirected steering gains for in-car VR (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[p.3] Curving the Virtual Route: Applying Redirected Steering Gains for Active Locomotion in In-Car VR</b></font><br>
@@ -467,7 +535,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Journal">
 				<div class="publication-image">
-				  <img src="/images/OLFRDW.jpeg" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/OLFRDW.avif">
+					  <source type="image/webp" srcset="/images/OLFRDW.webp">
+					  <img src="/images/OLFRDW.jpeg" alt="Olfactory and auditory attractors for redirected walking" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[j.2] Evaluation of Visual, Auditory, and Olfactory Stimulus-Based Attractors for Intermittent
@@ -479,7 +551,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Locomotion Journal">
 				<div class="publication-image">
-				  <img src="/images/OptiRDW.jpeg" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/OptiRDW.avif">
+					  <source type="image/webp" srcset="/images/OptiRDW.webp">
+					  <img src="/images/OptiRDW.jpeg" alt="Optical flow effects in redirected walking" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[j.1] Effect of Optical Flow and User VR Familiarity on Curvature Gain Thresholds for Redirected Walking</b></font><br>
@@ -490,7 +566,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Conference FA Award">
 				<div class="publication-image">
-				  <img src="/images/BCV_RDW.gif" alt="Research Image">
+				  <video aria-label="Bone-conduction vibration redirected walking (animation)" autoplay muted loop playsinline preload="none" poster="/images/BCV_RDW.gif">
+            <source src="/images/BCV_RDW.webm" type="video/webm">
+            <source src="/images/BCV_RDW.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/BCV_RDW.gif" alt="Bone-conduction vibration redirected walking (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.3] Enhancing Seamless Walking in Virtual Reality: Application of Bone-Conduction Vibration in Redirected Walking</b></font><br>
@@ -502,7 +582,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="AutomotiveUX Conference Award">
 				<div class="publication-image">
-				  <img src="/images/eHMI_AV.png" alt="Research Image">
+				  <picture>
+					  <source type="image/avif" srcset="/images/eHMI_AV.avif">
+					  <source type="image/webp" srcset="/images/eHMI_AV.webp">
+					  <img src="/images/eHMI_AV.png" alt="AR virtual agent eHMI for vehicle–pedestrian communication" loading="lazy" decoding="async">
+				  </picture>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.2] Designing Virtual Agent Human–Machine Interfaces Depending on the Communication and Anthropomorphism Levels in Augmented Reality</b></font><br>
@@ -514,7 +598,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Conference FA">
 				<div class="publication-image">
-				  <img src="/images/GVS_BCV_CVS.gif" alt="Research Image">
+				  <video aria-label="Redirected walking with electrical, vibrational, cooling stimuli (animation)" autoplay muted loop playsinline preload="none" poster="/images/GVS_BCV_CVS.gif">
+            <source src="/images/GVS_BCV_CVS.webm" type="video/webm">
+            <source src="/images/GVS_BCV_CVS.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/GVS_BCV_CVS.gif" alt="Redirected walking with electrical, vibrational, cooling stimuli (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[c.1] Electrical, Vibrational, and Cooling Stimuli-Based Redirected Walking: Comparison of Various Vestibular Stimulation-Based Redirected Walking Systems</b></font><br>
@@ -525,7 +613,11 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Poster&Workshop FA">
 				<div class="publication-image">
-				  <img src="/images/VSRDW.gif" alt="Research Image">
+				  <video aria-label="Four-pole vestibular electrode stimulation for redirected walking (animation)" autoplay muted loop playsinline preload="none" poster="/images/VSRDW.gif">
+            <source src="/images/VSRDW.webm" type="video/webm">
+            <source src="/images/VSRDW.mp4" type="video/mp4">
+          </video>
+          <noscript><img src="/images/VSRDW.gif" alt="Four-pole vestibular electrode stimulation for redirected walking (animation)" loading="lazy" decoding="async"></noscript>
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[p.2] REVES: Redirection Enhancement Using Four-Pole Vestibular Electrode Stimulation</b></font><br>
@@ -536,7 +628,7 @@ layout: default
 			  
 			  <div class="publication-container" data-tags="Haptics Locomotion Poster&Workshop">
 				<div class="publication-image">
-				  <img src="/images/OLFRDW_LBW.jpeg" alt="Research Image">
+				  <img src="/images/OLFRDW_LBW.jpeg" alt="Auditory and olfactory stimuli attractors (late-breaking work)" loading="lazy" decoding="async">
 				</div>
 				<div class="publication-text">
 				  <font size="4"><b>[p.1] Auditory and Olfactory Stimuli-Based Attractors to Induce Reorientation in Virtual Reality Forward Redirected Walking</b></font><br>

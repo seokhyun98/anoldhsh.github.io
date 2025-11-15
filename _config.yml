@@ -1,5 +1,12 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "seokhyunhwang.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://seokhyunhwang.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+title: "Seokhyun Hwang"
+description: "This is Seokhyun Hwang's Info"
+lang: "en"
+timezone: "UTC"
+logo: "/logo.jpeg"
+image: "/images/Intro.jpeg"
 
 
 # Build settings
@@ -9,6 +16,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-seo-tag
+  - jekyll-feed
 
 paginate: 20
 paginate_path: "/page/:num"
