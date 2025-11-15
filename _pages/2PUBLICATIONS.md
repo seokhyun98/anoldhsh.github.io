@@ -2,7 +2,7 @@
 layout: page
 title: PUBLICATIONS
 permalink: /PUBLICATIONS/
-image: Publications_0731.jpg
+image: Publications_0731.webp
 ---
 
 <div id="button-container">

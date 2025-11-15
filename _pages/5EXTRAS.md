@@ -2,7 +2,7 @@
 layout: page
 title: EXTRA ACTIVITIES
 permalink: /EXTRAS/
-image: Extracurriculars.jpeg
+image: Extracurriculars.webp
 ---
 
 #### GIST Society of Automotive Engineers, Korea (GIST)

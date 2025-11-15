@@ -2,8 +2,46 @@
 layout: page
 title: ABOUT
 permalink: /ABOUT/
-image: About.jpeg
+image: About.webp
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Seokhyun Hwang",
+  "alternateName": "Seokhyun Shawn Hwang",
+  "url": "https://seokhyunhwang.com/ABOUT/",
+  "image": "https://seokhyunhwang.com/images/Intro.webp",
+  "jobTitle": "Ph.D. Student, Information Science",
+  "email": "mailto:seokhyun@uw.edu",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "University of Washington",
+    "url": "https://www.washington.edu/"
+  },
+  "affiliation": {
+    "@type": "Organization",
+    "name": "University of Washington"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Gwangju Institute of Science and Technology (GIST)",
+      "url": "https://www.gist.ac.kr/en/main.html"
+    }
+  ],
+  "sameAs": [
+    "https://scholar.google.co.kr/citations?user=75v__NEAAAAJ&hl",
+    "https://www.linkedin.com/in/seokhyun-hwang-262632229/",
+    "https://ischool.uw.edu/people/phd/profile/seokhyun",
+    "https://www.researchgate.net/profile/Seokhyun-Hwang",
+    "https://orcid.org/0000-0001-5244-017X",
+    "https://dl.acm.org/profile/99660234042",
+    "https://ieeexplore.ieee.org/author/37086039280"
+  ]
+}
+</script>
 
 Hello! My name is Seokhyun (Shawn) Hwang, and I'm a <strong>Ph.D. student in Information
 Science</strong> at the <a href="https://www.washington.edu/"

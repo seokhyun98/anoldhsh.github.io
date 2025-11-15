@@ -7,6 +7,9 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
   <link rel="preload" as="image" href="{{site.baseurl}}/images/{{ site.data.settings.author.image }}">
+  {% if page.url == "/" %}
+  <title>{{ site.title }}</title>
+  {% endif %}
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
