@@ -115,6 +115,11 @@ I have been working on developing my own VR locomotion method and haptic feedbac
 - <i><u>May 2025</u></i><br />
 - Best paper for being in the top 1% of conference papers
 
+#### Special Recognitions, ACM TEI
+
+- <i><u>Apr 2025</u></i><br />
+- Special Recognitions for Outstanding Reviews in 2025 TEI
+
 #### Seed for Science, De Luca Foundation
 
 - <i><u>Feb 2025</u></i><br />

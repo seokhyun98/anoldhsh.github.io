@@ -7,6 +7,13 @@ image: Experiences.webp
 
 # RESEARCH EXPERIENCE
 
+#### University of Washington & Toyota Research Institute
+* <i><u>Research Assistant (Jan 2025 – Present)</u></i><br />
+
+#### Toyota Research Institute, Los Altos
+* <i><u>Research Intern (Jun 2025 – Sep 2025)</u></i><br />
+* Human-Centered AI Division<br />
+
 #### ACE Lab, University of Washington
 * <i><u>Ph.D. (Advisor: <a href="https://faculty.washington.edu/wobbrock/"><strong>Jacob O. Wobbrock</strong></a>) (Sep 2024 – Present)</u></i><br />
 
