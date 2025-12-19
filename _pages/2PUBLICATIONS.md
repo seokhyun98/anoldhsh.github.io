@@ -664,11 +664,17 @@ document.addEventListener('DOMContentLoaded', function() {
 # Patents & Copyrighted Contents
 
 <div class="publication-text">
+<font size="4"><b>[pa.2] Haptic wearable devices for tactile experiences</b></font><br>
+<font size="3" style="color:dark_gray;">Kim, S., Kang, S., Kim, G., <strong>Hwang, S.</strong>, Park, J., Elsharkawy, A.</font><br>
+<font size="3" style="color:gray;"><u><i>KR Patent App. KR102541073</i></u></font>
+</div>
+<br>
+
+<div class="publication-text">
 <font size="4"><b>[pa.1] Method and System for Supporting Walking in Virtual Environment</b></font><br>
 <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Lee, J., Kim, Y., Seo, Y., and Kim, S.</font><br>
-<font size="3" style="color:gray;"><u><i>US Patent App. 18/783,599 || KR Patent App. 10-2023-0,155,898</i></u></font>
+<font size="3" style="color:gray;"><u><i>US Patent App. US20250159408A1 || KR Patent App. KR20250069327A</i></u></font>
 </div>
-
 <br>
 
 <div class="publication-text">
@@ -676,7 +682,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <font size="3" style="color:dark_gray;">Kim, S., Kang, S., Kang, Y., Kim, K., Seong, M., An, E., Yang, H., Yeo, D., Oh, J., Jeon, H., Jo, T., and <strong>Hwang, S.</strong></font><br>
 <font size="3" style="color:gray;"><u><i>Copyright for Computer Program Works C-2022-050134</i></u></font>
 </div>
-
 <br>
 
 <div class="publication-text">
