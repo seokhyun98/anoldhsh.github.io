@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </picture>
     </div>
     <div class="publication-text">
-      <font size="4"><b>[c.14] A Framework for Adapting In-Car Touchscreen Interfaces to Driver Behaviors, Perception, and Cognition.</b></font><br>
+      <font size="4"><b>[c.14] A Framework for Adapting In-Car Touchscreen Interfaces to Driver Behaviors, Perception, and Cognition</b></font><br>
       <font size="3" style="color:dark_gray;"><strong>Hwang, S.</strong>, Shen, X., Filipowicz, A., Best, A., Costa, J., Carter, S., Fogarty, J., Wobbrock, J.,</font><br>
       <font size="3" style="color:gray;"><u><i>Proceedings of the 2025 CHI</i></u> - <a href="https://doi.org/10.1145/3772318.3790434"><strong>Link</strong></a></font>
     </div>
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </picture>
   </div>
   <div class="publication-text">
-    <font size="4"><b>[c.13] Touchscreens in Motion: Quantifying the Impact of Cognitive Load on Distracted Drivers.</b></font><br>
+    <font size="4"><b>[c.13] Touchscreens in Motion: Quantifying the Impact of Cognitive Load on Distracted Drivers</b></font><br>
     <font size="3" style="color:dark_gray;">Shen, X.*, <strong>Hwang, S.*</strong>, Kong, J., Filipowicz, A., Best, A., Costa, J., Carter, S., Fogarty, J., Wobbrock, J.,</font><br>
     <font size="3" style="color:gray;"><u><i>UIST '25: Proceedings of the ACM Symposium on User Interface Software and Technology</i></u> - <a href="https://doi.org/10.1145/3746059.3747683"><strong>Link</strong></a></font>
   </div>
